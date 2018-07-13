@@ -1,6 +1,6 @@
 {
-  "name": "locale-compare-polyfill",
-  "version": "0.0.2",
+  "name": "locale-compare-shim",
+  "version": "0.0.1",
   "description": "polyfill for String.localeCompare",
   "main": "src/locale-compare.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kosmobot/locale-compare-polyfill.git"
+    "url": "git+https://github.com/ozguryazilimas/locale-compare-polyfill.git"
   },
   "keywords": [
     "javascript",
@@ -17,12 +17,12 @@
     "locale",
     "compare"
   ],
-  "author": "Jeppe Burchardt",
+  "contributors": [
+    "Jeppe Burchardt",
+    "Hüseyin ATEŞ"
+  ],
   "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/kosmobot/locale-compare-polyfill/issues"
-  },
-  "homepage": "https://github.com/kosmobot/locale-compare-polyfill#readme",
+  "homepage": "https://github.com/ozguryazilimas/locale-compare-polyfill#readme",
   "devDependencies": {
     "mocha": "^2.4.5"
   }
