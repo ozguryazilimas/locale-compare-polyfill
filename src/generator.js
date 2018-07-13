@@ -11,12 +11,12 @@ var HEBREW = [0x0590, 0x05FF];
 var ARABIC = [0x0600, 0x06FF];
 
 var locales = [
-  {lang:'da', set: [BASIC_LATIN, LATIN_1]},
-  {lang:'nb', set: [BASIC_LATIN, LATIN_1]},
-  {lang:'se', set: [BASIC_LATIN, LATIN_1]},
-  {lang:'fi', set: [BASIC_LATIN, LATIN_1]},
-  {lang:'de', set: [BASIC_LATIN, LATIN_1]},
-  {lang:'en', set: [BASIC_LATIN]},
+  {lang: 'da', set: [BASIC_LATIN, LATIN_1]},
+  {lang: 'nb', set: [BASIC_LATIN, LATIN_1]},
+  {lang: 'se', set: [BASIC_LATIN, LATIN_1]},
+  {lang: 'fi', set: [BASIC_LATIN, LATIN_1]},
+  {lang: 'de', set: [BASIC_LATIN, LATIN_1]},
+  {lang: 'en', set: [BASIC_LATIN]},
 ];
 
 var characterMaps = locales.map(locale => ({
